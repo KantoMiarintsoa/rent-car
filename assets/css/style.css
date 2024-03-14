@@ -1,0 +1,112 @@
+:root {
+    --primary-color: #5a9ffa;
+    --secondary-color: #2e85f7;
+}
+
+body {
+    background-color: #cecbcb;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    transition: all ease-out .5s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    min-height: 100dvh;
+    align-items: center;
+
+}
+
+.login {
+    padding: 20px;
+    background-color: white;
+    display: grid;
+    gap: 10px;
+    /*espace */
+    border-radius: 20PX;
+    padding-bottom: 30px;
+}
+
+.login h3 {
+    margin: 0;
+}
+
+.form-input {
+    outline: none;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 8px;
+    border: 1px solid rgb(136, 133, 133);
+}
+
+.primary-button {
+    outline: none;
+    font-size: 15px;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+}
+
+.primary-button:hover {
+    background-color: var(--secondary-color);
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-template-rows: 55px auto;
+    height: 100dvh;
+    column-gap: 3px;
+    row-gap: 1rem;
+    padding-right: 3px;
+}
+
+.verticale {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 5px;
+}
+
+.verticale ul {
+    display: grid;
+    padding: 0;
+}
+
+.horizontale {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px
+}
+
+.verticale a {
+    padding: 13px;
+    border-radius: 10px;
+}
+
+.verticale a.active {
+    background-color: orange;
+}
+
+.verticale a:hover {
+    background-color: var(--primary-color);
+}
+
+.verticale h2 {
+    padding-left: 20px;
+}

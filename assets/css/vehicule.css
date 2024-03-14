@@ -1,0 +1,43 @@
+.head {
+    padding: 7px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.search {
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vehicules {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.vehicule {
+    display: grid;
+    text-align: center;
+    background-color: white;
+    border-radius: 0px 0px 7px 7px;
+    box-shadow: 5px 2px 5px 0px #888888;
+}
+
+.vehicule img {
+    height: 150px;
+}
+
+.ajout {
+    padding: 7px;
+    display: grid;
+    background-color: white;
+    gap: 10px;
+    max-width: 400px;
+    text-align: center;
+}

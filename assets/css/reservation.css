@@ -1,0 +1,85 @@
+.first {
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date {
+    justify-content: space-between;
+    flex: 1;
+    display: flex;
+}
+
+.form-input {
+    width: 150px;
+}
+
+
+.rechercher {
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+/* .liste_reservation {
+    padding: 7px;
+    align-items: baseline;
+    margin-bottom: 10px;
+    display: grid;
+    background-color: red;
+    margin-top: 1rem;
+}
+
+.reservation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+.liste_reservation {
+    width: 100%;
+    margin-top: 1rem;
+    background-color: white;
+}
+
+.reservation {
+    text-align: center;
+}
+
+.liste_reservation thead th {
+    padding: .5rem;
+}
+
+.reservation td {
+    padding: .5rem;
+    border-top: 1px solid #c5c5c5;
+}
+
+.reservation:hover {
+    background-color: #c5c5c5;
+}
+
+.reservation td a {
+    padding: .2rem .7rem;
+    border-radius: 7px;
+    background-color: orange;
+    color: white;
+}
+
+.reserver {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 1rem auto;
+    gap: 1rem;
+    min-width: 300px;
+}
+
+.reserver input {
+    flex: 1;
+}
